@@ -1,7 +1,9 @@
+import Navbar from "@/components/Navbar/Navbar";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="max-w-screen-2xl bg-white pt-12 mx-auto px-4">
+      <Navbar />
     </div>
   );
 };
