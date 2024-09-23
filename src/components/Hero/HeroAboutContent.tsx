@@ -1,5 +1,4 @@
 import Button from "../common/Button";
-import ImageReuse from "../common/Image";
 
 const HeroAboutContent = () => {
   return (
@@ -18,9 +17,9 @@ const HeroAboutContent = () => {
         with a strong focus on building scalable, user-friendly applications.
         With expertise in modern web technologies and a deep understanding of
         both server-side and client-side development, I strive to deliver
-        efficient and seamless digital experiences. Whether it's crafting clean,
-        maintainable code or optimizing performance, I’m always eager to take on
-        new challenges and grow as a developer.
+        efficient and seamless digital experiences. Whether it&apos;s crafting
+        clean, maintainable code or optimizing performance, I&apos;m always
+        eager to take on new challenges and grow as a developer.
       </p>
       <Button
         styles="bg-[#FD6F00] rounded-sm text-white w-[188px] mt-6 flex mx-auto justify-center items-center h-[52px]  mb-[20px]"

@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 
-export async function POST(req: any) {
+export async function POST(req: Request) {
   const { email } = await req.json();
 
   const transporter = nodemailer.createTransport({

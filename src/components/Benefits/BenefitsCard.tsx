@@ -1,4 +1,4 @@
-import { CodeIcon, DessertIcon } from "lucide-react";
+import { CodeIcon } from "lucide-react";
 
 const BenefitsCard = ({ title, descr }: { title: string; descr: string }) => {
   return (

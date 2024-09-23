@@ -1,4 +1,3 @@
-import { cn } from "@/lib/utils";
 import { Slider } from "../ui/slider";
 
 const AboutContent = () => {

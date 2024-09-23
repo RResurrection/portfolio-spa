@@ -1,7 +1,5 @@
 import CardWrapper from "../common/CardWrapper";
 import ImageReuse from "../common/Image";
-import HeroAboutContent from "../Hero/HeroAboutContent";
-import SocialLinks from "../Hero/SocialLinks";
 import AboutContent from "./AboutContent";
 
 const About = () => {

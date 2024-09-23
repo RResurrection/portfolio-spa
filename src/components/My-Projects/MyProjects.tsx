@@ -1,15 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import CategoryFilter from "./CategoryFilter";
-import { ProjectCegoriesData } from "@/utils/db";
-import { ProjectCegoriesDataProps } from "@/models/types";
 import ProjectsCard from "./ProjectsCard";
 import { useFilterProjects } from "@/hooks/useProjectList";
 
 const MyProjects = () => {
-  const { category, projects, filterProjects, setCategory } =
-    useFilterProjects();
+  const { category, projects, filterProjects } = useFilterProjects();
 
   return (
     <div id="projects" className="text-black mt-[120px] ">
@@ -21,11 +17,7 @@ const MyProjects = () => {
         </p>
       </div>
 
-      <CategoryFilter
-        filterProjects={filterProjects}
-        category={category}
-        setCategory={setCategory}
-      />
+      <CategoryFilter filterProjects={filterProjects} category={category} />
       <div className=" flex flex-wrap justify-center items-center gap-6">
         {projects.map((project) => (
           <ProjectsCard key={project.id} {...project} />

@@ -1,7 +1,3 @@
-import { NavbarLinks } from "@/utils/utils";
-import Logo from "../common/Logo";
-import NavbarLink from "../Navbar/NavbarLink";
-
 const Footer = () => {
   return (
     <footer className=" bg-[#121212] flex justify-center items-center">

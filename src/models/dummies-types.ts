@@ -1,4 +1,4 @@
-interface ImageProps {
+export interface ImageProps {
   src: string;
   alt: string;
   width: number;
@@ -6,14 +6,9 @@ interface ImageProps {
   styles?: string;
 }
 
-interface ButtonProps {
+export interface ButtonProps {
   type?: "button" | "submit" | "reset";
   title: string;
   styles?: string;
   onClick?: () => void;
-}
-
-interface CardWrapperProps {
-  children: React.ReactNode;
-  styles: string;
 }

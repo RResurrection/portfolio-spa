@@ -3,7 +3,7 @@ import { useState } from "react";
 export const useFetch = (sendEmail?: string) => {
   const [email, setEmail] = useState<string>("");
 
-  const handleSubmit = async (event: any) => {
+  const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
 
     const validateEmail = (email: string) => {
