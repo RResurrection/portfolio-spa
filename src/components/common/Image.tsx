@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ImageProps } from "@/models/dummies-types";
 
 const ImageReuse = ({ src, alt, width, height, styles }: ImageProps) => {
   return (
