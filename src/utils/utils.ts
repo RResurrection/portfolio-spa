@@ -5,22 +5,61 @@ export const NavbarLinks = [
   },
   {
     name: "About Me",
-    path: "/about",
+    path: "#about",
   },
   {
     name: "Services",
-    path: "/services",
+    path: "#services",
   },
   {
     name: "My Projects",
-    path: "/projects",
+    path: "#projects",
   },
   {
     name: "Testimonials",
-    path: "/testimonials",
+    path: "#testimonials",
   },
   {
     name: "Contact",
-    path: "/contact",
+    path: "#contact",
   },
 ];
+
+export const ServiceCard = [
+  {
+    name: "UI/UX",
+    descr: "design and develop user interfaces",
+  },
+  {
+    name: "Frontend",
+    descr: "make web pages interactive and visually appealing",
+  },
+  {
+    name: "App Design",
+    descr: "develop mobile applications",
+  },
+  {
+    name: "Graphic Design",
+    descr: "create visual content for websites and social media",
+  },
+];
+
+export const ProjectCegories = [
+  {
+    categoty: "All",
+  },
+  {
+    categoty: "Landing",
+  },
+  {
+    categoty: "Ecommerce",
+  },
+];
+
+export const settings = {
+  dots: true,
+  infinite: true,
+  speed: 1000,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+};

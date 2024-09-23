@@ -1,7 +1,7 @@
 import { NavbarLinks } from "@/utils/utils";
-import Logo from "../Dummies/Logo";
+import Logo from "../common/Logo";
 import NavbarLink from "./NavbarLink";
-import Button from "../Dummies/Button";
+import Button from "../common/Button";
 import {
   Sheet,
   SheetContent,
@@ -12,22 +12,21 @@ import {
 } from "../ui/sheet";
 import { MenuIcon } from "lucide-react";
 import Link from "next/link";
+import ScrollProgress from "./ScrollProgress";
+import DownloadButton from "../Dowloand/Download";
 
 const Navbar = () => {
   return (
-    <header className=" flex justify-between items-center text-">
-      <Logo styles="" src="/logo.png" alt="logo" width={250} height={68} />
+    <header className=" sticky top-10 z-10 w-full flex justify-between items-center ">
+      <ScrollProgress />
 
+      <Logo styles="" src="/logo.png" alt="logo" width={250} height={68} />
       <nav className="flex gap-12 lg:gap-6 xl:gap-11 ">
         {NavbarLinks.map((link) => (
           <NavbarLink key={link.name} {...link} />
         ))}
       </nav>
-
-      <Button
-        styles=" lg:w-[150px] xl:w-[188px] hidden sm:block  bg-[#FD6F00] text-xl text-white rounded-md w-[188px] h-[52px]"
-        title="Dowloand CV"
-      />
+      <DownloadButton />
       <div className="lg:hidden">
         <Sheet>
           <SheetTrigger>
