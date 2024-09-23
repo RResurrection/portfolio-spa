@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useScroll, useViewportScroll } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const ScrollProgressBar = () => {
