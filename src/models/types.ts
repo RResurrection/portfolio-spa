@@ -1,8 +1,3 @@
-interface HeroAboutContentProps {
-  userFullName: string;
-  userDescription: string;
-}
-
 export interface ProjectCegoriesDataProps {
   id: number;
   image: string;
@@ -11,13 +6,6 @@ export interface ProjectCegoriesDataProps {
   title: string;
 }
 [];
-
-export interface SliderCardProps {
-  img: string;
-  descr: string;
-  name: string;
-  role: string;
-}
 
 export interface TestimonialsDataProps {
   img: string;
