@@ -14,9 +14,3 @@ export interface TestimonialsDataProps {
   name: string;
   role: string;
 }
-
-export interface CategotyProps {
-  category: string;
-
-  filterProjects: (category: string) => void;
-}

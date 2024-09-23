@@ -1,3 +1,4 @@
+import { ImageProps } from "@/models/dummies-types";
 import Image from "next/image";
 import Link from "next/link";
 

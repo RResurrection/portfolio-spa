@@ -46,13 +46,13 @@ export const ServiceCard = [
 
 export const ProjectCegories = [
   {
-    categoty: "All",
+    itemCategory: "All",
   },
   {
-    categoty: "Landing",
+    itemCategory: "Landing",
   },
   {
-    categoty: "Ecommerce",
+    itemCategory: "Ecommerce",
   },
 ];
 
